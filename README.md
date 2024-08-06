@@ -36,7 +36,7 @@ A simple express app with get /hello api upon surfing returns a json object cont
     
 ## Usage Instructions
 
-Start the server by entering the below command in the vscode terminal.
+Start the server by entering the command below into the vscode terminal.
 
 ```bash
 npm run server
@@ -44,7 +44,7 @@ npm run server
 
 ## Note
 
-In the package.json file I have added explicitily
+In the package.json file, I have added explicitly
 ```bash
 "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -52,7 +52,7 @@ In the package.json file I have added explicitily
     
   },
 ```
-Now to run the server, we can simpy use the command
+Now to run the server, we can simply use the command
 
 ```bash
 npm run server
@@ -60,11 +60,11 @@ npm run server
 instead of
 
 ```bash
-nodemon sever.js
+nodemon server.js
 ```
 ## API usage
 
- After starting the server, open any browser and surf the below api.
+ After starting the server, open any browser and surf the below API.
 
 ``` bash
 http://localhost:5000/hello
